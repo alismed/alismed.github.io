@@ -1,0 +1,16 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin-bottom: .7rem;
+  line-height: 2;
+  
+}
+.wrapper {
+  text-align: center;
+}
+.logos {
+  display: inline-block;
+}
