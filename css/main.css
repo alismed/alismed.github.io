@@ -35,3 +35,6 @@ body {
   height: auto;
 }
 
+.col-stacked {
+  padding-top: 15px;
+}
