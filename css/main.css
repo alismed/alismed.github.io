@@ -38,3 +38,34 @@ body {
 .col-stacked {
   padding-top: 15px;
 }
+
+/* 404 error */
+h1.head{
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: 25px;
+  margin: 10px 0 0 0;
+}
+
+h1.head span {
+  position: relative;
+  display: inline-block;
+}
+
+h1.head span:before, h1.head span:after{
+  position: absolute;
+  top:50%;
+  width: 50%;
+  height: 1px;
+  background: #808080;
+  content: '';
+}
+
+h1.head span:before{
+  left: -55%;
+}
+
+h1.head span:after{
+  right: -55%;
+}
+
